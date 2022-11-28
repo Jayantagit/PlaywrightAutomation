@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 
 
-test.only('Frame Handling', async ({ page }) => {
+test.only("@Smoke Frame Handling", async ({ page }) => {
 
     await page.goto("https://the-internet.herokuapp.com/iframe");
 
